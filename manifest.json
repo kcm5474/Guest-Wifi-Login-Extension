@@ -3,13 +3,10 @@
     "name": "Auto Click Accept and Connect",
     "version": "0.5",
     "description": "Automatically clicks the 'Accept and Connect' button on PSU Guest page.",
-    "permissions": ["scripting"],
+    "permissions": [],
     "host_permissions": [
         "https://psu-guest.psu.edu/*"
     ],
-    "background": {
-        "service_worker": "background.js"
-    },
     "content_scripts": [
         {
             "matches": ["https://psu-guest.psu.edu/*"],
